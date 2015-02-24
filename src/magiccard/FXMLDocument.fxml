@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="227.0" prefWidth="399.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="magiccard.FXMLDocumentController">
+    <children>
+        <Button fx:id="carta1" disable="true" layoutX="22.0" layoutY="190.0" onAction="#f1" prefHeight="23.0" prefWidth="69.0" text="Carta I" />
+        <Button fx:id="carta2" disable="true" layoutX="133.0" layoutY="190.0" onAction="#f2" prefHeight="23.0" prefWidth="69.0" text="Carta II" />
+        <Button fx:id="carta3" disable="true" layoutX="245.0" layoutY="190.0" onAction="#f3" prefHeight="23.0" prefWidth="69.0" text="Carta III" />
+
+        <Label fx:id="domanda" layoutX="14.0" layoutY="14.0" minHeight="16" minWidth="69" prefHeight="16.0" prefWidth="401.0" text="-----" />
+        <Label fx:id="percentuale" layoutX="14.0" layoutY="98.0" minHeight="16" minWidth="69" prefHeight="16.0" prefWidth="401.0" text="-----" />
+        <Label fx:id="risultato" layoutX="14.0" layoutY="56.0" minHeight="16" minWidth="69" prefHeight="16.0" prefWidth="401.0" text="-----" />
+        <Button fx:id="start_continue" layoutX="335.0" layoutY="190.0" onMouseClicked="#reset" text="Start" />
+    </children>
+</AnchorPane>
